@@ -13,5 +13,4 @@ class CharacterResource < ApplicationResource
   belongs_to :actor
 
   # Indirect associations
-
 end

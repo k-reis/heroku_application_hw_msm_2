@@ -10,6 +10,8 @@ class MovieResource < ApplicationResource
 
   # Direct associations
 
+  has_many   :characters
+
   belongs_to :director
 
   # Indirect associations
